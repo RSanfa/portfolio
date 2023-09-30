@@ -17,13 +17,15 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video 
+{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 img 
 {
@@ -145,11 +147,12 @@ input, select, textarea {
 
 		}
 
+	 /* basic text an all document: */
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #ffffff;/* black, white, #F5A24C */
 		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
+		font-weight: 500;
+		font-size: 1.15rem;
 		line-height: 1.65;
 	}
 
@@ -181,7 +184,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: white;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -204,7 +207,6 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 		h2.major{
-			border-bottom: solid 1px #F5A24C;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -213,7 +215,6 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 		h3.major{
-			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -1164,7 +1165,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top,#000000f1, #1b1b1bbd), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
